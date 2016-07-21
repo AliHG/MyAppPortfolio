@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.myappportfolio.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_margin="16dp"
+        android:text="My Nanodegree Apps!"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        style="@style/ButtonStyle"
+        android:onClick="openPopularMovies"
+        android:text="@string/popular_movies" />
+
+    <Button
+        style="@style/ButtonStyle"
+        android:onClick="openStockHawk"
+        android:text="@string/stock_hawk" />
+
+    <Button
+        style="@style/ButtonStyle"
+        android:onClick="openBuildItBigger"
+        android:text="@string/build_it_bigger" />
+
+    <Button
+        style="@style/ButtonStyle"
+        android:onClick="openMakeYourAppMaterial"
+        android:text="@string/make_your_app_material" />
+
+    <Button
+        style="@style/ButtonStyle"
+        android:onClick="openGoUbiquitous"
+        android:text="@string/go_ubiquitous" />
+
+    <Button
+        style="@style/ButtonStyle"
+        android:onClick="openCapstone"
+        android:text="@string/capstone" />
+
+</LinearLayout>
