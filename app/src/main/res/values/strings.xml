@@ -1,15 +1,19 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">My App Portfolio</string>
+    <string name="my_nano_degree_apps">My Nanodegree Apps!</string>
     <string name="popular_movies">Popular Movies</string>
     <string name="stock_hawk">Stock Hawk</string>
     <string name="build_it_bigger">Build it Bigger</string>
     <string name="make_your_app_material">Make Your App Material</string>
     <string name="go_ubiquitous">Go Ubiquitous</string>
     <string name="capstone">Capstone</string>
-    <string name="popular_movies_toast">This button will launch my popular movies app</string>
-    <string name="stock_hawk_toast">This button will launch stock hawk app</string>
-    <string name="build_it_bigger_toast">This button will launch build it bigger app</string>
-    <string name="make_your_app_material_toast">This button will launch make your app material app</string>
-    <string name="go_ubiquitous_toast">This button will launch go ubiquitous app</string>
-    <string name="capstone_toast">This button will launch my popular capstone app</string>
+
+    <string name="toast_message">This button will launch my <xliff:g id="appName" example="Stock Hawk">%s</xliff:g> app</string>
+
+    <!--<string name="popular_movies_toast">This button will launch my popular movies app</string>-->
+    <!--<string name="stock_hawk_toast">This button will launch stock hawk app</string>-->
+    <!--<string name="build_it_bigger_toast">This button will launch build it bigger app</string>-->
+    <!--<string name="make_your_app_material_toast">This button will launch make your app material app</string>-->
+    <!--<string name="go_ubiquitous_toast">This button will launch go ubiquitous app</string>-->
+    <!--<string name="capstone_toast">This button will launch my popular capstone app</string>-->
 </resources>
